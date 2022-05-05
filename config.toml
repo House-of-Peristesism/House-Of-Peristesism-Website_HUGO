@@ -1,0 +1,44 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "The House of Peristesism"
+themesDir = "../House-Of-Peristesism-Website_HUGO/themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "images/Illustration.png"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/Illustration_LARGE.png"
+    desktop_height = "35px"
+    desktop_width = "250px"
+    alt = "Peristesism"
+
+  [params.homepage_meta_tags]
+    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_og_title = "House of Peristesism"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-hero.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = "The House of Peristesism is a small group that follows its religion. We welcome all and encourage people to join."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+
+[[menu.main]]
+    name = "religion"
+    url = "/religion/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/pages/about/"
+    weight = 3
+
